@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <label for="nom">
+            <span>Nombre:</span>
+            <input type= "text" name="nom" id="nom" autocomplete="name" required placeholder="Ingresa tu nombre">
+        </label>
+        <label for="Email">
+            <span>Email:</span>
+            <input type="email" name="Email" id="Email" autocomplete="email" required placeholder="Ingresa tu correo">
+        </label>
+        <!--reloj que identifique el tiempo-->
+        <span>Hora que es en tu país:</span>
+        <input type="time" autocomplete="time" required placeholder="Ingresa la hora que es en tu país">
+        <!--fecha-->
+        <span>Fecha de tu nacimiento:</span>
+        <input type="date" autocomplete="date" required placeholder="Ingresa la fecha de tu nacimiento">
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
